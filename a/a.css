@@ -1,28 +1,4 @@
-@font-face {
-	font-family: 'Atkinson Hyperlegible';
-	src: url('../AtkinsonHyperlegible-Regular.ttf');
-	font-weight: normal;
-}
-
-@font-face {
-	font-family: 'Atkinson Hyperlegible';
-	src: url('../AtkinsonHyperlegible-Italic.ttf');
-	font-weight: normal;
-    font-style: italic;
-}
-
-@font-face {
-	font-family: 'Atkinson Hyperlegible';
-	src: url('../AtkinsonHyperlegible-Bold.ttf');
-	font-weight: bold;
-}
-
-@font-face {
-	font-family: 'Atkinson Hyperlegible';
-	src: url('../AtkinsonHyperlegible-BoldItalic.ttf');
-	font-weight: bold;
-    font-style: italic;
-}
+@import url('https://samrland.github.io/export/font/Atkinson_Hyperlegible/export.css');
 
 * {
     -webkit-user-select: none;
