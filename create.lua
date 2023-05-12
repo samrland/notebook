@@ -1,10 +1,14 @@
 -- instead of wasting 5 minutes doing something manually, how about wasting 5 hours automating it?
 -- actually though this only took 5 minutes to make and will probably save me a lot of time in the future
 
+-- this doesn't work on linux, need to look into that
+
 -- date in YYYY-MM-DD
+io.write("date: ")
 local date = io.read("*l")
 -- contents in html
 print("entities list: &ndash; &mdash; &ldquo; &rdquo;")
+io.write("contents: ")
 local contents = io.read("*l")
 
 local datepath = date:gsub("-", "/")

@@ -1,42 +1,19 @@
-@import url('https://samrland.github.io/export/font/Atkinson_Hyperlegible/export.css');
+@import url('./master.css');
 
-* {
-    -webkit-user-select: none;
-	user-select: none;
-
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+body {
+    padding-top: 1rem;
 }
 
-
-:root {
-	--foreground: #fff;
-	--background: #000;
-}
-
-html, body {
-	color: var(--foreground);
-	background: var(--background);
-    font-family: 'Atkinson Hyperlegible', sans-serif;
-
-    padding: 1rem;
-    width: 100%;
-    
+main {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
 }
 
-a {
-    font-size: 2rem;
-    color: var(--foreground);
-    text-decoration: none;
-    border-bottom: 1px solid var(--foreground);
-}
-
-a:hover {
-    transition: ease-out 600ms;
-    border-bottom: none;
+body .copyright {
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+    padding: 1rem;
 }
